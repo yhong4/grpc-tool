@@ -1,0 +1,40 @@
+{
+  "name": "grpc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "description": "grpc",
+  "devDependencies": {
+    "@grpc/proto-loader": "^0.3.0",
+    "async": "^1.5.2",
+    "google-protobuf": "^3.6.1",
+    "grpc": "^1.15.0",
+    "grpc-web": "^1.0.0",
+    "lodash": "^4.6.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21",
+    "vue": "^2.6.6"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "dependencies": {
+    "@improbable-eng/grpc-web": "^0.9.1"
+  }
+}
